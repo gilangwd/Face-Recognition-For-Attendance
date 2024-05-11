@@ -1,0 +1,18 @@
+# Ignore All File
+*
+
+# Ignore All Dataset Folder
+# dataset/*/
+
+# Except this file
+!.gitignore
+!face_verification.ipynb
+!face_verification.py
+!best_model_pooling.h5
+!dataset/
+!verif_data/
+!README.md
+
+# Except this Sub-Folder
+# !dataset/ai_128/
+# !dataset/real_128/
