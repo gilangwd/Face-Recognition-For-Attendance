@@ -17,7 +17,7 @@ This Project contains an answer for Synapsis technical test.
 5. First we need to train the image and save it to database before trying to do image verification or recognition.
 6. Input number 1, and the application will train all image in the dataset folder and name it by its sub-folder name then save it into a database.
 7. I gave 5 example image for training, if you wish to add more image, please create a new folder put the image inside the folder and name the folder by the person name. Image extension can be .png, .jpg or .jpeg.
-8. After Data Training Success the data is saved into a database and now you can use the application to verify and recognize image.
+8. After Data Training Success the data is saved into a database now you can use the application to verify and recognize image.
 9. Input number 2 to verify image for attendance.
 10. Instead of camera, I will simplify this to verify the image on folder verif_data. Input the image name that you want to verify, you can include image extension or not it doesn't matter. Then input the identity of this image. Press enter to continue.
 11. If the image is exist in the verif_data, the application will check if it's on the database or not and then verify it with your input identity. If they are match then the door is open, you can enter the office.
