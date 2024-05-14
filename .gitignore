@@ -6,12 +6,12 @@
 
 # Except this file
 !.gitignore
-!face_verification.ipynb
-!face_verification.py
-!best_model_pooling.h5
+!face_verification_facenet.ipynb
+!face_verification_facenet.py
 !dataset/
 !verif_data/
 !README.md
+# dataset/**/*
 
 # Except this Sub-Folder
 # !dataset/ai_128/
